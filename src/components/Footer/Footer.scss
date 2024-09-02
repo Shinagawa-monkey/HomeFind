@@ -1,0 +1,40 @@
+@import "../../responsive.scss";
+
+footer {
+  //   background-color: #fcf5f3;
+  padding: 20px 0;
+  text-align: center;
+  // Positioning context for absolute positioning
+  position: relative;
+  // Pushes the footer to the bottom of the container
+  margin-top: auto;
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+
+    .footer-text {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      padding-right: 10px;
+
+      .heart-icon {
+        width: 20px;
+        height: 20px;
+        margin: 0 8px;
+      }
+    }
+
+    .footer-year {
+      //   margin-top: 8px;
+      font-size: 16px;
+      color: #666;
+      font-weight: bold;
+    }
+  }
+}
