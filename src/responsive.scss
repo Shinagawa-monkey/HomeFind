@@ -1,0 +1,24 @@
+@mixin sm {
+  @media (max-width: 738px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+// 1366px is another option
+@mixin lg {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: 1367px) {
+    @content;
+  }
+}
